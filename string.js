@@ -35,3 +35,13 @@ console.log(song.includes(part));
 
 console.log(song.indexOf('lazy'));
 console.log(song.indexOf('lazzzy'));
+
+
+// checking string with startsWith and endsWith  --------- maybe returns value as a boolean
+
+const fileName = 'myfile.pdf'
+const fileNameTwo = 'myfile.png'
+
+console.log(fileName.endsWith('.pdf'));
+console.log(fileNameTwo.endsWith('.pdf'));
+
