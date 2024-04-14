@@ -45,3 +45,4 @@ const fileNameTwo = 'myfile.png'
 console.log(fileName.endsWith('.pdf'));
 console.log(fileNameTwo.endsWith('.pdf'));
 
+// will learn another module tomorrow
