@@ -26,3 +26,27 @@ const lines = ['tumi bondhu', 'kala pakhi', 'ami jeno ki', 'boshonto bashate bon
 const newSong = lines.join(', ')
 
 console.log(newSong);
+
+// using trim function
+
+let greetings = '         hello world       '
+
+console.log(greetings.trim());
+console.log(greetings);
+
+// well formatted
+const strings = [
+  // Lone leading surrogate
+  "ab\uD800",
+  "ab\uD800c",
+  // Lone trailing surrogate
+  "\uDFFFab",
+  "c\uDFFFab",
+  // Well-formed
+  "abc",
+  "ab\uD83D\uDE04c",
+];
+
+for (const str of strings) {
+  console.log(str.toWellFormed());
+}
