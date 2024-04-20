@@ -7,6 +7,7 @@ let reverseName = '';
 
 // }
 // console.log(reverseName);
+// 
 
 let resultArray = [];
 let splitArray = myName.split(' ')
