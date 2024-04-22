@@ -25,3 +25,14 @@ console.log(ageValue)
 ageValue.splice(1, 0, 133)
 
 console.log(ageValue)
+
+
+// array concatenation 
+
+const arrayOne = [10, 20, 30, 40];
+const arrayTwo = [11, 21, 31, 41];
+
+const arrayThree = arrayTwo.concat(arrayOne);
+
+console.log(arrayThree);
+
